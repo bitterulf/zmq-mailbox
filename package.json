@@ -1,0 +1,22 @@
+{
+  "name": "zmq-mailbox",
+  "version": "1.0.0",
+  "description": "subscribing to incoming mails",
+  "bin": {
+    "zmq-mailbox": "bin/zmq-mailbox.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zmq",
+    "mailserver"
+  ],
+  "author": "Sebastian Kannegiesser",
+  "license": "MIT",
+  "dependencies": {
+    "mailin": "^3.0.4",
+    "zmq": "^2.15.3"
+  }
+}
